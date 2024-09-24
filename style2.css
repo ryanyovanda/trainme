@@ -72,12 +72,24 @@
 }
 
 .aboutus h1{
-    font-size: 48px;
+    font-size: 5vw;
+    background: linear-gradient(to left, #2acf56,#439cee, #6bf4dd, #2f88b8, #2acf56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1vw;
+    background-size: 200%;
+    animation: animate-gradient 5.5s linear infinite;
+}
+
+@keyframes animate-gradient{
+    to{
+        background-position: 200%;
+    }
 }
 
 .aboutus h2{
     font-style: italic;   
-    color: rgb(71, 225, 133);
+    color: rgb(128, 128, 128);
 }
 
 .descriptionwrap{
@@ -112,7 +124,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    background: rgb(71, 225, 133);
+    background: #1DB954;
     height: 500px;
 }
 
@@ -132,7 +144,7 @@
     justify-content: space-between; 
     flex-wrap: nowrap;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 30px;
     height: 300px;
     padding: 1em;
     width: 25%;
