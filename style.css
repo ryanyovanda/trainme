@@ -28,17 +28,33 @@ nav {
 
 /* Check list styling */
 nav ul {
+  list-style-type: none;
   display: flex;
   gap: 48px;
 }
 
 /* Check list link style */
 nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  color: #1F1534;
+  opacity: 50%;
+  font-size: 18px;
+  ;
 
 }
 
 /* Make text bold on hover */
 nav ul li a:hover {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Mulish' sans-serif;
+  font-weight: bold;
+  color: #1F1534;
+  opacity: 100%;
+  font-size: 18px;
+
   
 }
 
@@ -51,24 +67,53 @@ main {
 }
 
 /* Check margin and font styling */
+.text {
+  margin-top: 108px;
+}
 .text h1 {
   font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
 }
 
 /* Check font styling */
 .text h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+  ;
 }
 
 /* Check font styling */
 .text p {
   font-family: 'Open Sans', sans-serif; 
+  color: #7D7987;
+  font-weight: 400;
+  line-height: 25.6px;
+  margin-top: ;
+
 }
 
 /* Check font styling and make sure the button is rounded */
 .text button {
-  font-family: 'Open Sans', sans-serif;
+  margin-top: 56px;
+  border-radius: 4px;
+  border-style: none;
+  padding: 14px, 32px, 15px, 32px;
+  font-family: 'DM sans', sans-serif;
+  color: #F9F9F9;
+  font-weight: 500;
   display: flex;
   gap: 8px;
+  background-color: #69B99D;
+  width: 169px;
+  height: 59px;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  
+
+  ;
 }
 
 /* Handle when user hover on the button */
